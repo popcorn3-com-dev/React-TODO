@@ -3,9 +3,14 @@ import { BtnDefault } from "./components/btnDefault";
 import { ColorfulMessage } from "./components/colorfulMessage";
 
 export const App = () => {
+  console.log('^^')
   const [num, setNum] = useState(0);
+  const [isShowFace, setIsShowFace] = useState(true);
   const onClickCountUp = () => {
     setNum(num + 1);
+  };
+  const onClickToggle = () => {
+    setIsShowFace(!isShowFace);
   };
 
   return (
@@ -16,8 +21,10 @@ export const App = () => {
       <button onClick={onClickCountUp}>カウントアップ</button>
       <BtnDefault name='登録' backgroundColor='red' />
       <BtnDefault name='削除' backgroundColor='gray' />
-      <BtnDefault name='追加' backgroundColor='yellow' color='#666' />
       <p>{num}</p>
+      <button onClick={onClickToggle}>ON/OFF</button>
+      {isShowFace && <p>--\^o^/--</p>}
+
     </>
   );
 };
