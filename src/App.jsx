@@ -18,7 +18,7 @@ export const App = () => {
       <h1 style={{ color: '#333333', fontSize: '30px' }}>Hello, world</h1>
       <ColorfulMessage color='blue' message='お元気ですか？' />
       <ColorfulMessage color='green' message='元気です' />
-      <button onClick={onClickCountUp}>カウントアップ</button>
+      <button onClick={onClickCountUp}>カウントアップ!</button>
       <BtnDefault name='登録' backgroundColor='red' />
       <BtnDefault name='削除' backgroundColor='gray' />
       <p>{num}</p>
