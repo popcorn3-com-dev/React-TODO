@@ -1,3 +1,4 @@
+import { BtnDefault } from "./components/btnDefault";
 import { ColorfulMessage } from "./components/colorfulMessage";
 
 export const App = () => {
@@ -9,6 +10,9 @@ export const App = () => {
       <ColorfulMessage color='blue' message='お元気ですか？' />
       <ColorfulMessage color='green' message='元気です' />
       <button onClick={onClickButton}>ボタン</button>
+      <BtnDefault name='登録' backgroundColor='red' />
+      <BtnDefault name='削除' backgroundColor='gray' />
+      <BtnDefault name='追加' backgroundColor='yellow' color='#666' />
     </>
   );
 };
