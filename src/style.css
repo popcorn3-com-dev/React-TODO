@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+    font-family: "Helvetica Neue",
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    "Hiragino Sans",
+    Meiryo,
+    sans-serif;
+    color: #282828;
+}
+
+input{
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 6px 16px;
+  margin: 0px 2px;
+  font-size: 1em;
+  font-weight: 500;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 4px 16px;
+  margin: 0px 2px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  background-color: antiquewhite;
+}
+
+li{
+    list-style: none;
+}
+
+.todo{
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.input-area{
+  background-color: #96d2bf;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.incomplete-area{
+  border: 2px solid #96d2bf;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  min-height: 200px;
+}
+
+.complete-area{
+  background-color: #bfdfd5;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  min-height: 200px;
+}
+
+.title{
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+.list-row{
+  display: flex;
+  align-items: center;
+  margin: 15px;
+}
+.todo-item{
+  width: 180px;
+  margin-right: 10px;
+}
