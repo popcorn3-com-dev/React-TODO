@@ -44,12 +44,12 @@ li{
   padding: 10px;
 }
 
-.input-area{
+/* .input-area{
   background-color: #96d2bf;
   margin: 10px auto;
   padding: 10px;
   border-radius: 8px;
-}
+} */
 
 .incomplete-area{
   border: 2px solid #96d2bf;
